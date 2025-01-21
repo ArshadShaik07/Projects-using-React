@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  font-family: monospace, sans-serif;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3px;
+}
+
+button {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  font-family: monospace, sans-serif;
+  border: 2px solid black;
+}
+
+.accordion {
+  padding: 10px;
+  width: 400px;
+  border: 3px solid rgb(46, 46, 46);
+  background-color: lightcoral;
+  color: black;
+  margin: 10px;
+  text-align: start;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 5px;
+}
+
+.question div {
+  flex: 1 0 0;
+}
+
+.question span {
+  cursor: pointer;
+}
