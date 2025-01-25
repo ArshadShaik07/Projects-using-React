@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "./rating.css";
 
 function Rating() {
   const [hover, setHover] = useState();
