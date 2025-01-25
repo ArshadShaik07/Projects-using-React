@@ -1,5 +1,6 @@
 import data from "../assets/data.js";
 import { useState } from "react";
+import "./styles.css";
 
 function Accordion() {
   const [clickedId, setClickedId] = useState();
