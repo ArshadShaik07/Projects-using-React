@@ -1,0 +1,47 @@
+body {
+  display: block;
+  background-color: white;
+}
+
+.loader {
+  justify-content: center;
+}
+
+.images-slider-container {
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.images {
+  width: 400px;
+}
+
+.left-slider,
+.right-slider {
+  cursor: pointer;
+}
+
+.slide-dots-container {
+  position: absolute;
+  display: flex;
+  left: 100px;
+  bottom: 0px;
+}
+
+.slide-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 5px;
+  background-color: wheat;
+  cursor: pointer;
+}
+
+.active-slide {
+  background-color: gray;
+}
