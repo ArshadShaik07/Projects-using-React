@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+  background-color: rgb(43, 180, 116);
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.product-container {
+  flex: 0 1 10%;
+  cursor: pointer;
+}
+
+.product-container img {
+  width: 200px;
+}
+
+.product-container:hover {
+  transform: scale(1.07);
+}
