@@ -19,6 +19,8 @@ function Rating() {
 
   return (
     <div className="stars-container">
+      <h2 className="rating-title">Rating App</h2>
+
       {[...Array(10)].map((_, i) => {
         i += 1;
         return (

@@ -28,8 +28,9 @@ function Accordion() {
 
   return (
     <div className="accordion-container">
-      <h4>Accordion</h4>
+      <h4 className="title">Accordion</h4>
       <button
+        className="multi-btn"
         onClick={() => {
           setMulti((multi) => !multi);
         }}

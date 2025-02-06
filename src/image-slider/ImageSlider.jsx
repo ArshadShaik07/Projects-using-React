@@ -44,7 +44,7 @@ function ImageSlider(props) {
   return (
     <div className="images-slider">
       {loading ? (
-        <div className="loader">the page is loading</div>
+        <h2 className="loader">the page is loading</h2>
       ) : (
         <div className="images-slider-container">
           <svg

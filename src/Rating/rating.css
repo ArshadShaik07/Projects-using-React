@@ -1,3 +1,9 @@
-body {
-  background-color: rgb(158, 158, 158);
+.rating-title {
+  text-align: center;
+}
+
+.stars-container {
+  background-color: gray;
+  min-height: 15vh;
+  padding: 15px;
 }

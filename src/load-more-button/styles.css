@@ -1,14 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
+.products-container {
+  background-color: rgb(56, 79, 209);
+  min-height: 100vh;
+  padding: 15px 10px;
 }
 
-body {
-  padding: 10px;
-  background-color: rgb(43, 180, 116);
+.title {
+  color: white;
 }
 
 .products {
+  padding: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,4 +33,19 @@ body {
 
 .product-container:hover {
   transform: scale(1.07);
+}
+
+.load-btn {
+  margin: 10px;
+  background-color: lightcyan;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }

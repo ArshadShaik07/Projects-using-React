@@ -32,7 +32,8 @@ function LoadMore(props) {
   }, [products]);
 
   return (
-    <>
+    <div className="products-container">
+      <h1 className="title">Products</h1>
       <div className="products">
         {products.map((product, _) => {
           return (
@@ -43,10 +44,16 @@ function LoadMore(props) {
           );
         })}
       </div>
-      <button disabled={disable} className="load-btn" onClick={handleLoadMore}>
-        Load More
-      </button>
-    </>
+      <div className="btn-container">
+        <button
+          disabled={disable}
+          className="load-btn"
+          onClick={handleLoadMore}
+        >
+          Load More
+        </button>
+      </div>
+    </div>
   );
 }
 
