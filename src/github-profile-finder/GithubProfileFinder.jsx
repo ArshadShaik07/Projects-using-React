@@ -3,7 +3,7 @@ import Data from "./Data.jsx";
 import "./styles.css";
 
 function GithubProfileFinder() {
-  const [userName, setUserName] = useState("ArshadShaik07");
+  const [userName, setUserName] = useState("sangammukherjee");
   const [data, setData] = useState();
   const [loading, setLoading] = useState(false);
 
@@ -35,6 +35,7 @@ function GithubProfileFinder() {
 
   return (
     <div className="profile-finder-container">
+      <h1>Github profile finder</h1>
       <div className="inputs-container">
         <input
           value={userName}
