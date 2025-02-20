@@ -6,12 +6,13 @@ import LightDark from "./darkLightToggle/index.jsx";
 import TabsTest from "./customTabs/tabsTest.jsx";
 import GithubProfileFinder from "./github-profile-finder/GithubProfileFinder.jsx";
 import AutoComplete from "./autocomplete using api/AutoComplete.jsx";
+import TicTacToe from "./tic-tac-toe/TicTacToe.jsx";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <AutoComplete />
+      <TicTacToe />
     </>
   );
 }

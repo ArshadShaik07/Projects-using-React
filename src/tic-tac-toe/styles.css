@@ -1,0 +1,36 @@
+.game-container {
+  background-color: rgb(104, 104, 104);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.game-btn,
+.restart-btn {
+  margin: 0px;
+  padding: 0;
+  background-color: rgb(24, 27, 31);
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.restart-btn {
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
