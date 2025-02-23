@@ -7,12 +7,16 @@ import TabsTest from "./customTabs/tabsTest.jsx";
 import GithubProfileFinder from "./github-profile-finder/GithubProfileFinder.jsx";
 import AutoComplete from "./autocomplete using api/AutoComplete.jsx";
 import TicTacToe from "./tic-tac-toe/TicTacToe.jsx";
+import FeatureFlagsGlobal from "./Feature-Flag/Context/index.jsx";
+import FeatureFlags from "./Feature-Flag/index.jsx";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <TicTacToe />
+      <FeatureFlagsGlobal>
+        <FeatureFlags />
+      </FeatureFlagsGlobal>
     </>
   );
 }
